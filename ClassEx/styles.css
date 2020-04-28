@@ -1,0 +1,23 @@
+
+
+        body{
+            width: 50%;
+            margin: 0px auto;
+        }
+        header{
+            background-color: darksalmon
+        }
+        nav{
+            text-align: center; 
+            line-height: 30px;
+            background-color: darkkhaki; 
+            height: 300px; 
+            width: 100px; 
+            float:left;
+            padding: 5px
+        }
+        section{
+            width: 350px; 
+            float:left;
+            padding: 10px
+        }
