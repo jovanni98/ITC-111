@@ -1,0 +1,53 @@
+.logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header{
+    margin: 50px;
+    border: 10px solid rgb(232, 172, 138);
+    background-color: white;
+    text-align: center;
+   
+    
+}
+body {
+    background-image: url(background_tri.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.center {
+    text-align: center;
+    width: max-content;
+    margin: 0 auto;
+}
+img{
+    width: auto;
+    
+}
+#title {
+    font-family: "Black Han Sans", san-serif;
+    text-align: center;
+    font-size: 100px;
+    text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff,
+        1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+        
+    }
+.box{
+    width: auto;
+    
+    background-color: white;
+    padding: 50px;
+    margin: 40px;
+}
+#pic {
+    width: 10;
+}
+footer{
+    text-align: center;
+    background-color: rgb(232, 172, 138);
+}
+ul {
+    list-style-position: inside;
+}
