@@ -3,18 +3,23 @@ function loadDisplay(num) {
     document.getElementById('display2').value += num.value.toString();
 }
 
-function delFromRight() {
+function delFromRight(){
     document.getElementById('display2').value = document.getElementById('display2').value.slice(0, -1);
 }
-function clearDisplay() {
+
+function clearDisplay(){
+    document.getElementById('display2').value + " " + tag.value;
+    document.getElementById('display1').innerHTML = val1;
     document.getElementById('display2').value = "";
 }
-function setOperator(tag) {
+
+function setOp(tag) {
     val1 = document.getElementById('display2').value + " " + tag.value;
     document.getElementById('display1').innerHTML = val1;
     document.getElementById('display2').value = "";
 }
-function doMath() {
+
+function doMath(){
     val2 = document.getElementById('display2').value;
     var result;
     switch(val1.slice(-1)){
@@ -23,21 +28,14 @@ function doMath() {
             break;
         case '-':
             result = parseInt(val1) - parseInt(val2);
-            break;
         case '*':
             result = parseInt(val1) * parseInt(val2);
             break;
         case '/':
             result = parseInt(val1) / parseInt(val2);
             break;
-        case 'sqrt':
-            break;
-        case 'pow':
-            break;
     }
+
     document.getElementById('display1').innerHTML = "";
     document.getElementById('display2').value = result;
-    val1 = null;
-    val2 = null;
-    result = null;
 }
