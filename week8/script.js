@@ -31,6 +31,12 @@ function doMath(){
         case '*':
             result = parseInt(val1) * parseInt(val2);
             break;
+        case 's':
+            result = Math.sqrt(parseInt(val1));
+            break;
+        case 'p':
+            result = Math.pow(parseInt(val1), parseInt(val2));
+            break;
         case '/':
             result = parseInt(val1) / parseInt(val2);
             break;
